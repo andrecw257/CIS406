@@ -20,10 +20,10 @@ public class OrderEntryPhase3 {
 		
 		while (!cont.equalsIgnoreCase("N")) {
 			
-			System.out.print("Enter item number: ");
+			System.out.println("Enter item number:");
 			String itemNum = input.nextLine();
 			
-			System.out.print("Enter item description: ");
+			System.out.println("Enter item description:");
 			String desc = input.nextLine();
 			
 			System.out.print("Enter item price: ");
